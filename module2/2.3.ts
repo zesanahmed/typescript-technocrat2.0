@@ -27,6 +27,6 @@
 
   const userWithId: GenericTuple<number, { name: string; email: string }> = [
     234,
-    { name: mezba, email: "mezba@abedin.com" },
+    { name: "mezba", email: "mezba@abedin.com" },
   ];
 }
