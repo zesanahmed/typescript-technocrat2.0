@@ -38,7 +38,7 @@
     }
   }
 
-  class toyotaCar extends Car2 {
+  class HondaCar extends Car2 {
     startEngine(): void {
       console.log(`I am starting the car engine`);
     }
@@ -50,8 +50,8 @@
     }
   }
 
-  const BMWCar = new Car2();
-  BMWCar.startEngine();
+  //   const BMWCar = new Car2();
+  //   BMWCar.startEngine();
 
   //
 }
